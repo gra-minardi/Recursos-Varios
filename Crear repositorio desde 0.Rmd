@@ -1,0 +1,40 @@
+---
+title: "GitHub y RStudio"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+#### De GitHub a RStudio
+
+[ver en Youtube](https://www.youtube.com/watch?v=JN6rzv4zSJ4&ab_channel=Estad%C3%ADstica%C3%BAtil)
+
+##### 1. En GitHub: crear un repositorio.
+
+Desde _Repositories_, botón _New_, poner nombre, descripción, si es público o privado e inicializar con README. Botón _create Repository_.
+
+Clonarlo, copiar la dirección al portapapeles e ir a RStudio.
+<br>
+<br>
+
+##### 2. En RStudio: crear un nuevo proyecto.
+
+Abrir RStudio, hacer nuevo proyecto y elegir **Version Control**. Luego elegir Git y en la ventana que se abre pegar el url copiado en Repository URL. Con el botón _Browse_ se puede cambiar el lugar donde será ubicado el repositorio en el disco.
+Clonarlo, copiar la dirección al portapapeles e ir a RStudio.
+<br>
+<br>
+
+##### 3. Hacer cambios.
+
+Una vez realizado cualquier cambio para que impacte en la nube debe ser comentado con "commit". Esta acción dispara el control de versiones.
+Para ello, una vez hechos y guardado los cambios, hay que ir a la ventana Git, elegir el archivo sobre el que se hizo el cambio y apretar botón _Commit_. también hay que hacerlo con .gitignore y el proyecto.
+Por último con _Push_
+
+
+
+
+
+
+
